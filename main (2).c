@@ -19,7 +19,7 @@ int main() {
     // ETAPA A: ABRIR, ESCREVER E FECHAR
     // ==========================================
     
-    // ABRIR para gravacao ("w" cria ou substitui o arquivo)
+    // ABRIR para gravacao //
     arquivo = fopen("dados_conta.txt", "w");
     if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo para gravar!\n");
@@ -39,7 +39,7 @@ int main() {
     int conta_lida;
     float salario_lido, poupanca_lida;
 
-    // ABRIR para leitura ("r" apenas le um arquivo existente)
+    // ABRIR para leitura //
     arquivo = fopen("dados_conta.txt", "r");
     if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo para ler!\n");
